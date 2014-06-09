@@ -1,0 +1,61 @@
+/var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_tcp_server': no acceptor (RuntimeError)
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:572:in `start_server'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:34:in `block in <top (required)>'
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `call'
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:17:in `<top (required)>'
+	from /usr/local/bin/stompserver:19:in `load'
+	from /usr/local/bin/stompserver:19:in `<main>'
+MemoryQueue initialized
+TopicManager initialized
+QueueManager initialized
+Stomp protocol handler starting on 127.0.0.1 port 61613
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:35: warning: class variable access from toplevel
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:36: warning: class variable access from toplevel
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:37: warning: class variable access from toplevel
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:38: warning: class variable access from toplevel
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:13:in `include?': can't convert Fixnum into String (TypeError)
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:13:in `to_s'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:174:in `stomp_send_data'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:181:in `send_frame'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:170:in `send_error'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:29:in `rescue in stomp_receive_data'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:23:in `stomp_receive_data'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:19:in `receive_data'
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	from /var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	from /var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:17:in `<top (required)>'
+	from /usr/local/bin/stompserver:19:in `load'
+	from /usr/local/bin/stompserver:19:in `<main>'
+MemoryQueue initialized
+TopicManager initialized
+QueueManager initialized
+Stomp protocol handler starting on 127.0.0.1 port 61613
+err: type mismatch: Fixnum given /var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:54:in `index'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:54:in `parse_text_body'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:82:in `parse'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/stomp_frame.rb:93:in `<<'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:25:in `stomp_receive_data'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/lib/stomp_server/protocols/stomp.rb:19:in `receive_data'
+/var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+/var/lib/gems/1.9.0/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+/var/lib/gems/1.9.0/gems/stompserver-0.9.9/bin/stompserver:17:in `<top (required)>'
+/usr/local/bin/stompserver:19:in `load'
+/usr/local/bin/stompserver:19:in `<main>'
+Disconnecting
+2010-03-04 17:02:44,509 [MainThread] coilmq.start - ERROR - Stomp server stopped due to error: [Errno 98] Address already in use
+2010-03-04 17:02:44,511 [MainThread] coilmq.start - ERROR - [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/start.py", line 115, in context_serve
+    server = server_from_config()
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/start.py", line 82, in server_from_config
+    authenticator=authenticator)
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/server/socketserver.py", line 123, in __init__
+    TCPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/lib/python2.6/SocketServer.py", line 400, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.6/SocketServer.py", line 411, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+error: [Errno 98] Address already in use

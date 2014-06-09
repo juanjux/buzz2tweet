@@ -1,0 +1,866 @@
+2010-03-02 21:23:45,540 - listener - DEBUG - Listening starting
+2010-03-02 21:24:18,137 - listener - DEBUG - Listening starting
+2010-03-02 21:46:12,965 - listener - DEBUG - Listening starting
+2010-03-02 21:46:12,968 - listener - INFO - Starting listener server
+2010-03-02 21:51:30,663 - listener - DEBUG - listener: msg received: subscribefeed__89
+2010-03-02 21:51:30,663 - listener - DEBUG - listener.subscribefeed: msg received: 89
+2010-03-02 21:51:30,861 - listener - DEBUG - Subscribing user: juanjuxtest@gmail.com
+2010-03-02 21:51:30,861 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/117128917302494323129/public/posted
+2010-03-02 21:51:30,861 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/89/
+2010-03-02 21:51:58,652 - listener - DEBUG - listener: msg received: notification__101
+2010-03-02 21:51:58,653 - listener - DEBUG - listener.processnotification: msg received: 101
+2010-03-02 21:51:58,676 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:48:56 lastbuffread_at: 2010-03-02 21:49:30
+2010-03-02 21:51:58,676 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:49:53 lastbuffread_at: 2010-03-02 21:49:30
+2010-03-02 21:51:58,677 - listener - INFO - Saving new buzz: test2249
+2010-03-02 21:51:58,678 - listener - INFO - sending message to queue publish__473
+2010-03-02 21:51:58,678 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:51:52 lastbuffread_at: 2010-03-02 21:49:30
+2010-03-02 21:51:58,679 - listener - INFO - Saving new buzz: test2251 ñññ
+2010-03-02 21:51:58,679 - listener - INFO - sending message to queue publish__474
+2010-03-02 21:51:58,679 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 21:51:52
+2010-03-02 21:51:58,682 - listener - DEBUG - listener: msg received: publish__473
+2010-03-02 21:51:58,682 - listener - DEBUG - listener.post_buzz2twitter: msg received: 473
+2010-03-02 21:51:58,685 - listener - INFO - (u'Publishing on Twitter: test2249',)
+2010-03-02 21:51:59,853 - listener - DEBUG - listener: msg received: publish__474
+2010-03-02 21:51:59,853 - listener - DEBUG - listener.post_buzz2twitter: msg received: 474
+2010-03-02 21:51:59,859 - listener - INFO - (u'Publishing on Twitter: test2251 \xf1\xf1\xf1',)
+2010-03-02 21:53:02,444 - listener - DEBUG - Listening starting
+2010-03-02 21:53:02,447 - listener - INFO - Starting listener server
+2010-03-02 21:54:49,208 - listener - DEBUG - listener: msg received: notification__102
+2010-03-02 21:54:49,208 - listener - DEBUG - listener.processnotification: msg received: 102
+2010-03-02 21:54:49,256 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:54:10 lastbuffread_at: 2010-03-02 21:51:52
+2010-03-02 21:54:49,256 - listener - INFO - Saving new buzz: test23232
+2010-03-02 21:54:49,257 - listener - INFO - sending message to queue publish__475
+2010-03-02 21:54:49,257 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:53:08 lastbuffread_at: 2010-03-02 21:51:52
+2010-03-02 21:54:49,258 - listener - INFO - Saving new buzz: test2253 ñññ
+2010-03-02 21:54:49,259 - listener - INFO - sending message to queue publish__476
+2010-03-02 21:54:49,259 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 21:54:10
+2010-03-02 21:54:49,261 - listener - DEBUG - listener: msg received: publish__475
+2010-03-02 21:54:49,261 - listener - DEBUG - listener.post_buzz2twitter: msg received: 475
+2010-03-02 21:54:49,264 - listener - INFO - (u'Publishing on Twitter: test23232',)
+2010-03-02 21:54:50,152 - listener - DEBUG - listener: msg received: publish__476
+2010-03-02 21:54:50,152 - listener - DEBUG - listener.post_buzz2twitter: msg received: 476
+2010-03-02 21:54:50,158 - listener - INFO - (u'Publishing on Twitter: test2253 \xf1\xf1\xf1',)
+2010-03-02 21:59:18,289 - listener - DEBUG - listener: msg received: notification__103
+2010-03-02 21:59:18,290 - listener - DEBUG - listener.processnotification: msg received: 103
+2010-03-02 21:59:18,309 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:55:41 lastbuffread_at: 2010-03-02 21:54:10
+2010-03-02 21:59:18,309 - listener - INFO - Saving new buzz: test2255
+2010-03-02 21:59:18,310 - listener - INFO - sending message to queue publish__477
+2010-03-02 21:59:18,310 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:54:43 lastbuffread_at: 2010-03-02 21:54:10
+2010-03-02 21:59:18,311 - listener - INFO - Saving new buzz: test2254
+2010-03-02 21:59:18,312 - listener - INFO - sending message to queue publish__478
+2010-03-02 21:59:18,312 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 21:55:41
+2010-03-02 21:59:18,314 - listener - DEBUG - listener: msg received: publish__477
+2010-03-02 21:59:18,314 - listener - DEBUG - listener.post_buzz2twitter: msg received: 477
+2010-03-02 21:59:18,317 - listener - INFO - (u'Publishing on Twitter: test2255',)
+2010-03-02 21:59:20,924 - listener - DEBUG - listener: msg received: publish__478
+2010-03-02 21:59:20,924 - listener - DEBUG - listener.post_buzz2twitter: msg received: 478
+2010-03-02 21:59:20,930 - listener - INFO - (u'Publishing on Twitter: test2254',)
+2010-03-02 22:08:25,909 - listener - DEBUG - listener: msg received: notification__104
+2010-03-02 22:08:25,910 - listener - DEBUG - listener.processnotification: msg received: 104
+2010-03-02 22:08:25,937 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:59:40 lastbuffread_at: 2010-03-02 21:55:41
+2010-03-02 22:08:25,937 - listener - INFO - Saving new buzz: jarl
+2010-03-02 22:08:25,938 - listener - INFO - sending message to queue publish__479
+2010-03-02 22:08:25,938 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:59:12 lastbuffread_at: 2010-03-02 21:55:41
+2010-03-02 22:08:25,939 - listener - INFO - Saving new buzz: ddfdfd
+2010-03-02 22:08:25,940 - listener - INFO - sending message to queue publish__480
+2010-03-02 22:08:25,940 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:58:56 lastbuffread_at: 2010-03-02 21:55:41
+2010-03-02 22:08:25,941 - listener - INFO - Saving new buzz: pok
+2010-03-02 22:08:25,941 - listener - INFO - sending message to queue publish__481
+2010-03-02 22:08:25,941 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 21:59:40
+2010-03-02 22:08:25,944 - listener - DEBUG - listener: msg received: publish__479
+2010-03-02 22:08:25,944 - listener - DEBUG - listener.post_buzz2twitter: msg received: 479
+2010-03-02 22:08:25,946 - listener - INFO - (u'Publishing on Twitter: jarl',)
+2010-03-02 22:08:26,857 - listener - DEBUG - listener: msg received: publish__480
+2010-03-02 22:08:26,858 - listener - DEBUG - listener.post_buzz2twitter: msg received: 480
+2010-03-02 22:08:26,860 - listener - INFO - (u'Publishing on Twitter: ddfdfd',)
+2010-03-02 22:08:27,914 - listener - DEBUG - listener: msg received: publish__481
+2010-03-02 22:08:27,914 - listener - DEBUG - listener.post_buzz2twitter: msg received: 481
+2010-03-02 22:08:27,920 - listener - INFO - (u'Publishing on Twitter: pok',)
+2010-03-02 22:12:50,079 - listener - DEBUG - listener: msg received: notification__105
+2010-03-02 22:12:50,080 - listener - DEBUG - listener.processnotification: msg received: 105
+2010-03-02 22:12:50,102 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:08:19 lastbuffread_at: 2010-03-02 21:59:40
+2010-03-02 22:12:50,103 - listener - INFO - Saving new buzz: dfsfds
+2010-03-02 22:12:50,103 - listener - INFO - sending message to queue publish__482
+2010-03-02 22:12:50,104 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:08:28 lastbuffread_at: 2010-03-02 21:59:40
+2010-03-02 22:12:50,104 - listener - INFO - Saving new buzz: xzxzxz
+2010-03-02 22:12:50,105 - listener - INFO - sending message to queue publish__483
+2010-03-02 22:12:50,105 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 22:08:28
+2010-03-02 22:12:50,108 - listener - DEBUG - listener: msg received: publish__482
+2010-03-02 22:12:50,108 - listener - DEBUG - listener.post_buzz2twitter: msg received: 482
+2010-03-02 22:12:50,110 - listener - INFO - (u'Publishing on Twitter: dfsfds',)
+2010-03-02 22:12:52,619 - listener - DEBUG - listener: msg received: publish__483
+2010-03-02 22:12:52,620 - listener - DEBUG - listener.post_buzz2twitter: msg received: 483
+2010-03-02 22:12:52,625 - listener - INFO - (u'Publishing on Twitter: xzxzxz',)
+2010-03-02 22:17:09,266 - listener - DEBUG - listener: msg received: notification__106
+2010-03-02 22:17:09,266 - listener - DEBUG - listener.processnotification: msg received: 106
+2010-03-02 22:17:09,284 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:12:44 lastbuffread_at: 2010-03-02 22:08:28
+2010-03-02 22:17:09,285 - listener - INFO - Saving new buzz: 123131
+2010-03-02 22:17:09,287 - listener - INFO - sending message to queue publish__484
+2010-03-02 22:17:09,287 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 22:12:44
+2010-03-02 22:17:09,290 - listener - DEBUG - listener: msg received: publish__484
+2010-03-02 22:17:09,290 - listener - DEBUG - listener.post_buzz2twitter: msg received: 484
+2010-03-02 22:17:09,292 - listener - INFO - (u'Publishing on Twitter: 123131',)
+2010-03-02 22:17:23,280 - listener - DEBUG - listener: msg received: notification__107
+2010-03-02 22:17:23,280 - listener - DEBUG - listener.processnotification: msg received: 107
+2010-03-02 22:17:23,298 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:17:02 lastbuffread_at: 2010-03-02 22:12:44
+2010-03-02 22:17:23,299 - listener - INFO - Saving new buzz: iuiuiu
+2010-03-02 22:17:23,301 - listener - INFO - sending message to queue publish__485
+2010-03-02 22:17:23,301 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 22:17:02
+2010-03-02 22:17:23,304 - listener - DEBUG - listener: msg received: publish__485
+2010-03-02 22:17:23,304 - listener - DEBUG - listener.post_buzz2twitter: msg received: 485
+2010-03-02 22:17:23,307 - listener - INFO - (u'Publishing on Twitter: iuiuiu',)
+2010-03-02 22:18:13,536 - listener - DEBUG - listener: msg received: notification__108
+2010-03-02 22:18:13,536 - listener - DEBUG - listener.processnotification: msg received: 108
+2010-03-02 22:18:13,552 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:17:52 lastbuffread_at: 2010-03-02 22:17:02
+2010-03-02 22:18:13,553 - listener - INFO - Saving new buzz: nhnhnh
+2010-03-02 22:18:13,554 - listener - INFO - sending message to queue publish__486
+2010-03-02 22:18:13,554 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 22:17:52
+2010-03-02 22:18:13,556 - listener - DEBUG - listener: msg received: publish__486
+2010-03-02 22:18:13,556 - listener - DEBUG - listener.post_buzz2twitter: msg received: 486
+2010-03-02 22:18:13,559 - listener - INFO - (u'Publishing on Twitter: nhnhnh',)
+2010-03-02 22:18:53,342 - listener - DEBUG - listener: msg received: notification__109
+2010-03-02 22:18:53,342 - listener - DEBUG - listener.processnotification: msg received: 109
+2010-03-02 22:18:53,356 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:18:08 lastbuffread_at: 2010-03-02 22:17:52
+2010-03-02 22:18:53,356 - listener - INFO - Saving new buzz: tghteded
+2010-03-02 22:18:53,357 - listener - INFO - sending message to queue publish__487
+2010-03-02 22:18:53,357 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:17:33 lastbuffread_at: 2010-03-02 22:17:52
+2010-03-02 22:18:53,357 - listener - DEBUG - new lastbuzzread_at is: 2010-03-02 22:18:08
+2010-03-02 22:18:53,360 - listener - DEBUG - listener: msg received: publish__487
+2010-03-02 22:18:53,360 - listener - DEBUG - listener.post_buzz2twitter: msg received: 487
+2010-03-02 22:18:53,362 - listener - INFO - (u'Publishing on Twitter: tghteded',)
+2010-03-03 02:35:16,673 - listener - DEBUG - listener: msg received: notification__110
+2010-03-03 02:35:16,674 - listener - DEBUG - listener.processnotification: msg received: 110
+2010-03-03 02:35:16,698 - listener - DEBUG - XXX date_buzz: 2010-02-22 04:53:45 lastbuffread_at: 2010-02-24 17:58:04
+2010-03-03 02:35:16,698 - listener - DEBUG - XXX date_buzz: 2010-02-26 17:40:28 lastbuffread_at: 2010-02-24 17:58:04
+2010-03-03 02:35:16,699 - listener - INFO - Saving new buzz: Basic Instinct!
+2010-03-03 02:35:16,700 - listener - INFO - sending message to queue publish__488
+2010-03-03 02:35:16,700 - listener - DEBUG - new lastbuzzread_at is: 2010-02-26 17:40:28
+2010-03-03 02:35:16,702 - listener - DEBUG - listener: msg received: publish__488
+2010-03-03 02:35:16,702 - listener - DEBUG - listener.post_buzz2twitter: msg received: 488
+2010-03-03 02:35:16,705 - listener - INFO - (u'Publishing on Twitter: Basic Instinct!',)
+2010-03-03 02:38:27,230 - listener - DEBUG - listener: msg received: notification__111
+2010-03-03 02:38:27,230 - listener - DEBUG - listener.processnotification: msg received: 111
+2010-03-03 02:38:27,239 - listener - DEBUG - XXX date_buzz: 2010-03-03 02:35:10 lastbuffread_at: 2010-02-26 17:40:28
+2010-03-03 02:38:27,240 - listener - INFO - Saving new buzz: Dinosaur eating snake found in India!
+2010-03-03 02:38:27,241 - listener - INFO - sending message to queue publish__489
+2010-03-03 02:38:27,241 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 02:35:10
+2010-03-03 02:38:27,243 - listener - DEBUG - listener: msg received: publish__489
+2010-03-03 02:38:27,244 - listener - DEBUG - listener.post_buzz2twitter: msg received: 489
+2010-03-03 02:38:27,246 - listener - INFO - (u'Publishing on Twitter: Dinosaur eating snake found in India!',)
+2010-03-03 09:17:54,332 - listener - DEBUG - listener: msg received: notification__112
+2010-03-03 09:17:54,333 - listener - DEBUG - listener.processnotification: msg received: 112
+2010-03-03 09:17:54,349 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:15:25 lastbuffread_at: 2010-02-26 09:18:21
+2010-03-03 09:17:54,350 - listener - INFO - Saving new buzz: Probando Groovyshark, 4 veces más barato que Spotify y parece que está mejor #t
+2010-03-03 09:17:54,350 - listener - INFO - sending message to queue publish__490
+2010-03-03 09:17:54,350 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 09:15:25
+2010-03-03 09:17:54,353 - listener - DEBUG - listener: msg received: publish__490
+2010-03-03 09:17:54,353 - listener - DEBUG - listener.post_buzz2twitter: msg received: 490
+2010-03-03 09:17:54,356 - listener - INFO - (u'Publishing on Twitter: Probando Groovyshark, 4 veces m\xe1s barato que Spotify y parece que est\xe1 mejor ',)
+2010-03-03 09:19:54,144 - listener - DEBUG - listener: msg received: notification__113
+2010-03-03 09:19:54,144 - listener - DEBUG - listener.processnotification: msg received: 113
+2010-03-03 09:19:54,158 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:15:25 lastbuffread_at: 2010-03-03 09:15:25
+2010-03-03 09:19:54,159 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 10:07:56,570 - listener - DEBUG - listener: msg received: notification__114
+2010-03-03 10:07:56,570 - listener - DEBUG - listener.processnotification: msg received: 114
+2010-03-03 10:07:56,641 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:17:01 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:56,975 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:59:51 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:57,301 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:16:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:57,625 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:03:10 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:57,950 - listener - DEBUG - XXX date_buzz: 2010-03-02 23:14:53 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:57,952 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:21:22 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:58,273 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:09:45 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:58,600 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:11:27 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:58,602 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 10:07:58,607 - listener - DEBUG - listener: msg received: notification__115
+2010-03-03 10:07:58,607 - listener - DEBUG - listener.processnotification: msg received: 115
+2010-03-03 10:07:58,679 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:17:01 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:59,000 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:59:51 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:59,323 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:16:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:59,651 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:03:10 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:59,978 - listener - DEBUG - XXX date_buzz: 2010-03-02 23:14:53 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:07:59,979 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:21:22 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:00,292 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:09:45 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:00,611 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:11:27 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:00,612 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 10:08:00,614 - listener - DEBUG - listener: msg received: notification__116
+2010-03-03 10:08:00,615 - listener - DEBUG - listener.processnotification: msg received: 116
+2010-03-03 10:08:00,674 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:17:01 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:00,992 - listener - DEBUG - XXX date_buzz: 2010-03-02 22:59:51 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:01,320 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:16:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:01,643 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:03:10 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:01,964 - listener - DEBUG - XXX date_buzz: 2010-03-02 23:14:53 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:01,964 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:21:22 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:02,288 - listener - DEBUG - XXX date_buzz: 2010-03-02 12:09:45 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:02,612 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:11:27 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 10:08:02,613 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 11:02:35,161 - listener - DEBUG - Listening starting
+2010-03-03 11:02:35,163 - listener - INFO - Starting listener server
+2010-03-03 11:02:43,631 - listener - DEBUG - Listening starting
+2010-03-03 11:02:43,634 - listener - INFO - Starting listener server
+2010-03-03 11:03:03,114 - listener - DEBUG - Listening starting
+2010-03-03 11:03:03,116 - listener - INFO - Starting listener server
+2010-03-03 11:03:19,066 - listener - DEBUG - Listening starting
+2010-03-03 11:03:19,069 - listener - INFO - Starting listener server
+2010-03-03 11:03:25,407 - listener - DEBUG - Listening starting
+2010-03-03 11:03:25,409 - listener - INFO - Starting listener server
+2010-03-03 11:03:55,550 - listener - DEBUG - Listening starting
+2010-03-03 11:03:55,553 - listener - INFO - Starting listener server
+2010-03-03 11:03:56,762 - listener - DEBUG - Listening starting
+2010-03-03 11:03:56,765 - listener - INFO - Starting listener server
+2010-03-03 11:03:57,743 - listener - DEBUG - Listening starting
+2010-03-03 11:03:57,746 - listener - INFO - Starting listener server
+2010-03-03 11:03:58,840 - listener - DEBUG - Listening starting
+2010-03-03 11:03:58,842 - listener - INFO - Starting listener server
+2010-03-03 11:03:59,456 - listener - DEBUG - Listening starting
+2010-03-03 11:03:59,459 - listener - INFO - Starting listener server
+2010-03-03 11:07:43,209 - listener - DEBUG - Listening starting
+2010-03-03 11:07:43,209 - listener - DEBUG - Listening starting
+2010-03-03 11:07:43,212 - listener - INFO - Starting listener server
+2010-03-03 11:07:43,212 - listener - INFO - Starting listener server
+2010-03-03 12:13:36,247 - listener - DEBUG - listener: msg received: notification__117
+2010-03-03 12:13:36,247 - listener - DEBUG - listener.processnotification: msg received: 117
+2010-03-03 12:13:36,372 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:27:26 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 12:13:36,777 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:56:56 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 12:13:36,781 - listener - DEBUG - XXX date_buzz: 2010-03-02 13:09:47 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 12:13:37,109 - listener - DEBUG - XXX date_buzz: 2010-03-02 23:42:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 12:13:37,493 - listener - DEBUG - XXX date_buzz: 2010-03-02 21:07:22 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 12:13:37,494 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 15:29:40,074 - listener - DEBUG - listener: msg received: notification__118
+2010-03-03 15:29:40,075 - listener - DEBUG - listener.processnotification: msg received: 118
+2010-03-03 15:29:40,188 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:19:48 lastbuffread_at: 2010-03-03 09:15:25
+2010-03-03 15:29:40,189 - listener - INFO - Saving new buzz: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor #t
+2010-03-03 15:29:40,190 - listener - INFO - sending message to queue publish__491
+2010-03-03 15:29:40,190 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:15:25 lastbuffread_at: 2010-03-03 09:15:25
+2010-03-03 15:29:40,190 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:29:40,190 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:29:40,190 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 09:19:48
+2010-03-03 15:29:40,194 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:29:45,364 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:29:45,369 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:29:45,370 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:29:45,370 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:29:45,377 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:29:50,544 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:29:50,549 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:29:50,554 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:29:50,554 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:29:50,560 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:29:55,723 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:29:55,726 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:29:55,728 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:29:55,729 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:29:55,733 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:00,896 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:00,901 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:00,902 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:00,903 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:00,909 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:06,075 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:06,080 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:06,085 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:06,085 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:06,091 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:11,256 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:11,258 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:11,260 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:11,260 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:11,263 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:16,435 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:16,440 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:16,445 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:16,445 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:16,451 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:16,770 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 389, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 502, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 427, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Unavailable
+
+2010-03-03 15:30:16,775 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:16,780 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:16,780 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:16,786 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:17,102 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 389, in open
+    response = meth(req, response)
+  File "/usr/lib/python2.6/urllib2.py", line 502, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python2.6/urllib2.py", line 427, in error
+    return self._call_chain(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 510, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Unavailable
+
+2010-03-03 15:30:17,107 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:17,107 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:17,108 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:17,114 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:22,278 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:22,282 - listener - DEBUG - re-enqueuing message for buzz 491
+2010-03-03 15:30:22,283 - listener - DEBUG - listener: msg received: publish__491
+2010-03-03 15:30:22,284 - listener - DEBUG - listener.post_buzz2twitter: msg received: 491
+2010-03-03 15:30:22,289 - listener - INFO - (u'Publishing on Twitter: Por cierto el Buzz2Tweet vuelve a funcionar tras la hecatombe de OVH, ahora en un nuevo servidor ',)
+2010-03-03 15:30:27,458 - listener - ERROR - Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 145, in post_buzz2twitter
+    twapi.PostUpdates(content.encode('utf-8').strip())
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1527, in PostUpdates
+    results.append(self.PostUpdate(lines[-1], **kwargs))
+  File "/usr/local/lib/python2.6/dist-packages/python_twitter-0.6-py2.6.egg/twitter.py", line 1494, in PostUpdate
+    json = self._FetchUrl(url, post_data=data)
+  File "/home/juanjux/webapps/django/buzz2tweet/oauthtwitter.py", line 102, in _FetchUrl
+    url_data = opener.open(url, encoded_post_data).read()
+  File "/usr/lib/python2.6/urllib2.py", line 383, in open
+    response = self._open(req, data)
+  File "/usr/lib/python2.6/urllib2.py", line 401, in _open
+    '_open', req)
+  File "/usr/lib/python2.6/urllib2.py", line 361, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python2.6/urllib2.py", line 1130, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/usr/lib/python2.6/urllib2.py", line 1105, in do_open
+    raise URLError(err)
+URLError: <urlopen error timed out>
+
+2010-03-03 15:30:27,459 - listener - WARNING - Deleting buzz because it failed 10 times
+2010-03-03 17:18:53,237 - listener - DEBUG - listener: msg received: notification__119
+2010-03-03 17:18:53,238 - listener - DEBUG - listener.processnotification: msg received: 119
+2010-03-03 17:18:53,256 - listener - DEBUG - XXX date_buzz: 2010-02-26 09:18:21 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-03 17:18:53,256 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 17:31:11,217 - listener - DEBUG - listener: msg received: notification__120
+2010-03-03 17:31:11,217 - listener - DEBUG - listener.processnotification: msg received: 120
+2010-03-03 17:31:11,292 - listener - DEBUG - XXX date_buzz: 2010-02-25 18:44:09 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:11,293 - listener - DEBUG - XXX date_buzz: 2010-02-25 16:57:17 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:11,714 - listener - DEBUG - XXX date_buzz: 2010-02-26 07:33:08 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:12,044 - listener - DEBUG - XXX date_buzz: 2010-02-25 19:19:38 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:12,045 - listener - DEBUG - XXX date_buzz: 2010-02-25 18:30:51 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:12,409 - listener - DEBUG - XXX date_buzz: 2010-02-25 09:24:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:12,409 - listener - DEBUG - XXX date_buzz: 2010-02-25 18:54:51 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:13,646 - listener - DEBUG - XXX date_buzz: 2010-02-25 19:29:41 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:13,974 - listener - DEBUG - XXX date_buzz: 2010-02-25 09:34:40 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:13,975 - listener - DEBUG - XXX date_buzz: 2010-02-25 21:38:18 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:14,391 - listener - DEBUG - XXX date_buzz: 2010-02-25 19:09:38 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:14,392 - listener - DEBUG - XXX date_buzz: 2010-02-25 14:41:22 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:14,970 - listener - DEBUG - XXX date_buzz: 2010-02-25 19:06:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:14,972 - listener - DEBUG - XXX date_buzz: 2010-02-25 10:02:31 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-03 17:31:14,972 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 17:57:53,231 - listener - DEBUG - listener: msg received: notification__121
+2010-03-03 17:57:53,231 - listener - DEBUG - listener.processnotification: msg received: 121
+2010-03-03 17:57:53,249 - listener - DEBUG - XXX date_buzz: 2010-02-26 09:57:07 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-03 17:57:53,249 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 18:20:04,868 - listener - DEBUG - listener: msg received: notification__122
+2010-03-03 18:20:04,868 - listener - DEBUG - listener.processnotification: msg received: 122
+2010-03-03 18:20:04,878 - listener - DEBUG - XXX date_buzz: 2010-02-26 10:50:58 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-03 18:20:04,878 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-03 21:02:11,546 - listener - DEBUG - listener: msg received: notification__123
+2010-03-03 21:02:11,547 - listener - DEBUG - listener.processnotification: msg received: 123
+2010-03-03 21:02:11,576 - listener - DEBUG - XXX date_buzz: 2010-03-03 21:02:02 lastbuffread_at: 2010-03-03 02:35:10
+2010-03-03 21:02:11,577 - listener - INFO - Saving new buzz: A town named Google. Place to be if you want faster net speeds.
+2010-03-03 21:02:11,578 - listener - INFO - sending message to queue publish__493
+2010-03-03 21:02:11,578 - listener - DEBUG - XXX date_buzz: 2010-03-03 02:38:21 lastbuffread_at: 2010-03-03 02:35:10
+2010-03-03 21:02:11,578 - listener - INFO - parsing command for: buzz2tweet: cancel
+2010-03-03 21:02:11,588 - listener - DEBUG - XXX date_buzz: 2010-03-03 02:35:10 lastbuffread_at: 2010-03-03 02:35:10
+2010-03-03 21:02:11,588 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 21:02:02
+2010-03-03 21:02:11,589 - listener - DEBUG - listener: msg received: publish__493
+2010-03-03 21:02:11,590 - listener - DEBUG - listener.post_buzz2twitter: msg received: 493
+2010-03-03 21:02:11,590 - listener - ERROR - listener.post_buzz2twitter failed: Traceback (most recent call last):
+  File "/home/juanjux/webapps/django/buzz2tweet/stompparts/listener.py", line 120, in post_buzz2twitter
+    self.logger.debug('Ignoring user %d which doesnt have TwitterAccount yet' % siteuser.id)
+UnboundLocalError: local variable 'siteuser' referenced before assignment
+
+2010-03-03 21:02:11,591 - listener - DEBUG - listener: msg received: unsubscribefeed__44__45
+2010-03-03 21:02:11,591 - listener - DEBUG - listener.unsubscribefeed: msg received: 44__45
+2010-03-04 00:11:09,224 - listener - DEBUG - listener: msg received: notification__124
+2010-03-04 00:11:09,225 - listener - DEBUG - listener.processnotification: msg received: 124
+2010-03-04 00:11:09,261 - listener - DEBUG - XXX date_buzz: 2010-02-26 21:44:08 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 00:11:09,599 - listener - DEBUG - XXX date_buzz: 2010-02-26 21:19:36 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 00:11:09,602 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 00:51:07,976 - listener - DEBUG - listener: msg received: notification__125
+2010-03-04 00:51:07,977 - listener - DEBUG - listener.processnotification: msg received: 125
+2010-03-04 00:51:08,004 - listener - DEBUG - XXX date_buzz: 2010-02-26 21:53:13 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 00:51:08,005 - listener - DEBUG - XXX date_buzz: 2010-02-26 13:43:58 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 00:51:08,005 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 00:51:08,008 - listener - DEBUG - listener: msg received: notification__126
+2010-03-04 00:51:08,008 - listener - DEBUG - listener.processnotification: msg received: 126
+2010-03-04 00:51:08,020 - listener - DEBUG - XXX date_buzz: 2010-02-26 21:53:13 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 00:51:08,021 - listener - DEBUG - XXX date_buzz: 2010-02-26 13:43:58 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 00:51:08,021 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 04:44:47,260 - listener - DEBUG - listener: msg received: notification__127
+2010-03-04 04:44:47,260 - listener - DEBUG - listener.processnotification: msg received: 127
+2010-03-04 04:44:47,281 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 05:04:56,026 - listener - DEBUG - listener: msg received: subscribefeed__90
+2010-03-04 05:04:56,027 - listener - DEBUG - listener.subscribefeed: msg received: 90
+2010-03-04 05:04:56,297 - listener - DEBUG - Subscribing user: vistaalmar1@gmail.com
+2010-03-04 05:04:56,297 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/114357034840811846387/public/posted
+2010-03-04 05:04:56,297 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/90/
+2010-03-04 05:08:33,439 - listener - DEBUG - listener: msg received: notification__128
+2010-03-04 05:08:33,439 - listener - DEBUG - listener.processnotification: msg received: 128
+2010-03-04 05:08:33,457 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:13:33,807 - listener - DEBUG - listener: msg received: notification__129
+2010-03-04 06:13:33,807 - listener - DEBUG - listener.processnotification: msg received: 129
+2010-03-04 06:13:33,826 - listener - DEBUG - XXX date_buzz: 2010-02-26 09:57:07 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-04 06:13:33,827 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:45:31,097 - listener - DEBUG - listener: msg received: notification__130
+2010-03-04 06:45:31,097 - listener - DEBUG - listener.processnotification: msg received: 130
+2010-03-04 06:45:31,117 - listener - DEBUG - XXX date_buzz: 2010-03-03 11:08:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 06:45:31,815 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:45:31,820 - listener - DEBUG - listener: msg received: notification__131
+2010-03-04 06:45:31,821 - listener - DEBUG - listener.processnotification: msg received: 131
+2010-03-04 06:45:31,837 - listener - DEBUG - XXX date_buzz: 2010-03-03 11:08:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 06:45:31,913 - listener - DEBUG - listener: msg received: notification__134
+2010-03-04 06:45:31,913 - listener - DEBUG - listener.processnotification: msg received: 134
+2010-03-04 06:45:31,932 - listener - DEBUG - XXX date_buzz: 2010-03-03 11:08:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 06:45:32,170 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:45:32,173 - listener - DEBUG - listener: msg received: notification__132
+2010-03-04 06:45:32,173 - listener - DEBUG - listener.processnotification: msg received: 132
+2010-03-04 06:45:32,182 - listener - DEBUG - XXX date_buzz: 2010-03-03 11:08:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 06:45:32,265 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:45:32,504 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 06:45:32,508 - listener - DEBUG - listener: msg received: notification__133
+2010-03-04 06:45:32,508 - listener - DEBUG - listener.processnotification: msg received: 133
+2010-03-04 06:45:32,516 - listener - DEBUG - XXX date_buzz: 2010-03-03 11:08:34 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 06:45:32,857 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 07:01:35,567 - listener - DEBUG - listener: msg received: subscribefeed__91
+2010-03-04 07:01:35,567 - listener - DEBUG - listener.subscribefeed: msg received: 91
+2010-03-04 07:01:35,651 - listener - DEBUG - Subscribing user: jguyomard@gmail.com
+2010-03-04 07:01:35,651 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/116442536327386748760/public/posted
+2010-03-04 07:01:35,651 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/91/
+2010-03-04 07:12:38,777 - listener - DEBUG - listener: msg received: notification__135
+2010-03-04 07:12:38,778 - listener - DEBUG - listener.processnotification: msg received: 135
+2010-03-04 07:12:38,801 - listener - DEBUG - XXX date_buzz: 2010-03-04 00:01:00 lastbuffread_at: 2010-03-04 05:02:56
+2010-03-04 07:12:38,801 - listener - DEBUG - XXX date_buzz: 2010-03-03 16:21:26 lastbuffread_at: 2010-03-04 05:02:56
+2010-03-04 07:12:38,801 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 07:54:05,586 - listener - DEBUG - listener: msg received: notification__136
+2010-03-04 07:54:05,586 - listener - DEBUG - listener.processnotification: msg received: 136
+2010-03-04 07:54:05,604 - listener - DEBUG - XXX date_buzz: 2010-02-27 15:35:18 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 07:54:05,605 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 07:59:03,923 - listener - DEBUG - listener: msg received: notification__137
+2010-03-04 07:59:03,923 - listener - DEBUG - listener.processnotification: msg received: 137
+2010-03-04 07:59:03,954 - listener - DEBUG - XXX date_buzz: 2010-02-28 05:59:41 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 07:59:04,280 - listener - DEBUG - XXX date_buzz: 2010-02-27 11:30:54 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 07:59:04,281 - listener - DEBUG - XXX date_buzz: 2010-02-27 13:38:31 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 07:59:04,637 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 09:08:58,719 - listener - DEBUG - listener: msg received: notification__138
+2010-03-04 09:08:58,720 - listener - DEBUG - listener.processnotification: msg received: 138
+2010-03-04 09:08:58,745 - listener - DEBUG - XXX date_buzz: 2010-02-28 11:38:14 lastbuffread_at: 2010-02-24 18:12:55
+2010-03-04 09:08:59,397 - listener - INFO - Saving new buzz: http://bit.ly/b2kft7
+2010-03-04 09:08:59,398 - listener - INFO - sending message to queue publish__494
+2010-03-04 09:08:59,399 - listener - DEBUG - XXX date_buzz: 2010-02-19 23:00:07 lastbuffread_at: 2010-02-24 18:12:55
+2010-03-04 09:08:59,399 - listener - DEBUG - new lastbuzzread_at is: 2010-02-28 11:38:14
+2010-03-04 09:08:59,399 - listener - DEBUG - listener: msg received: publish__494
+2010-03-04 09:08:59,399 - listener - DEBUG - listener.post_buzz2twitter: msg received: 494
+2010-03-04 09:08:59,406 - listener - INFO - (u'Publishing on Twitter: http://bit.ly/b2kft7',)
+2010-03-04 09:57:58,634 - listener - DEBUG - listener: msg received: notification__139
+2010-03-04 09:57:58,634 - listener - DEBUG - listener.processnotification: msg received: 139
+2010-03-04 09:57:58,643 - listener - DEBUG - XXX date_buzz: 2010-03-03 16:34:35 lastbuffread_at: 2010-02-28 11:38:14
+2010-03-04 09:57:59,179 - listener - INFO - Saving new buzz: I subscribed to ghstudio2's channel on YouTube http://bit.ly/cxpcyJ
+2010-03-04 09:57:59,180 - listener - INFO - sending message to queue publish__495
+2010-03-04 09:57:59,180 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 16:34:35
+2010-03-04 09:57:59,182 - listener - DEBUG - listener: msg received: publish__495
+2010-03-04 09:57:59,182 - listener - DEBUG - listener.post_buzz2twitter: msg received: 495
+2010-03-04 09:57:59,185 - listener - INFO - (u"Publishing on Twitter: I subscribed to ghstudio2's channel on YouTube http://bit.ly/cxpcyJ",)
+2010-03-04 10:46:29,502 - listener - DEBUG - listener: msg received: notification__140
+2010-03-04 10:46:29,502 - listener - DEBUG - listener.processnotification: msg received: 140
+2010-03-04 10:46:29,546 - listener - DEBUG - XXX date_buzz: 2010-03-03 13:16:40 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:29,547 - listener - DEBUG - XXX date_buzz: 2010-03-03 20:11:21 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:29,978 - listener - DEBUG - XXX date_buzz: 2010-03-03 13:58:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,350 - listener - DEBUG - XXX date_buzz: 2010-03-03 19:24:44 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,352 - listener - DEBUG - XXX date_buzz: 2010-03-03 20:49:39 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,741 - listener - DEBUG - XXX date_buzz: 2010-03-03 18:14:08 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,742 - listener - DEBUG - XXX date_buzz: 2010-03-03 14:37:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,744 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 10:46:30,746 - listener - DEBUG - listener: msg received: notification__141
+2010-03-04 10:46:30,746 - listener - DEBUG - listener.processnotification: msg received: 141
+2010-03-04 10:46:30,780 - listener - DEBUG - XXX date_buzz: 2010-03-03 13:16:40 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:30,781 - listener - DEBUG - XXX date_buzz: 2010-03-03 20:11:21 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,115 - listener - DEBUG - XXX date_buzz: 2010-03-03 13:58:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,453 - listener - DEBUG - XXX date_buzz: 2010-03-03 19:24:44 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,455 - listener - DEBUG - XXX date_buzz: 2010-03-03 20:49:39 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,788 - listener - DEBUG - XXX date_buzz: 2010-03-03 18:14:08 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,789 - listener - DEBUG - XXX date_buzz: 2010-03-03 14:37:33 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 10:46:31,790 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 10:48:44,978 - listener - DEBUG - listener: msg received: notification__142
+2010-03-04 10:48:44,978 - listener - DEBUG - listener.processnotification: msg received: 142
+2010-03-04 10:48:44,987 - listener - DEBUG - XXX date_buzz: 2010-03-04 10:34:18 lastbuffread_at: 2010-03-04 05:02:56
+2010-03-04 10:48:45,342 - listener - INFO - Saving new buzz: Flores de Bach. Chicory (II) http://ff.im/-gVaxk
+2010-03-04 10:48:45,342 - listener - INFO - sending message to queue publish__496
+2010-03-04 10:48:45,343 - listener - DEBUG - new lastbuzzread_at is: 2010-03-04 10:34:18
+2010-03-04 10:48:45,343 - listener - DEBUG - listener: msg received: publish__496
+2010-03-04 10:48:45,343 - listener - DEBUG - listener.post_buzz2twitter: msg received: 496
+2010-03-04 10:48:45,346 - listener - INFO - (u'Publishing on Twitter: Flores de Bach. Chicory (II) http://ff.im/-gVaxk',)
+2010-03-04 11:26:22,374 - listener - DEBUG - listener: msg received: notification__143
+2010-03-04 11:26:22,374 - listener - DEBUG - listener.processnotification: msg received: 143
+2010-03-04 11:26:22,412 - listener - DEBUG - XXX date_buzz: 2010-02-27 16:00:37 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 11:26:23,651 - listener - DEBUG - XXX date_buzz: 2010-02-27 19:17:41 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 11:26:23,653 - listener - DEBUG - XXX date_buzz: 2010-02-28 05:35:18 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 11:26:23,654 - listener - DEBUG - XXX date_buzz: 2010-02-27 15:27:05 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 11:26:23,999 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 11:48:26,878 - listener - DEBUG - listener: msg received: notification__144
+2010-03-04 11:48:26,879 - listener - DEBUG - listener.processnotification: msg received: 144
+2010-03-04 11:48:26,896 - listener - DEBUG - XXX date_buzz: 2010-02-28 23:44:51 lastbuffread_at: 2010-03-03 16:34:35
+2010-03-04 11:48:26,896 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 11:49:38,021 - listener - DEBUG - listener: msg received: notification__145
+2010-03-04 11:49:38,021 - listener - DEBUG - listener.processnotification: msg received: 145
+2010-03-04 11:49:38,040 - listener - DEBUG - XXX date_buzz: 2010-03-04 09:08:55 lastbuffread_at: 2010-03-03 16:34:35
+2010-03-04 11:49:38,363 - listener - INFO - Saving new buzz: http://bit.ly/b2kft7
+2010-03-04 11:49:38,365 - listener - INFO - sending message to queue publish__497
+2010-03-04 11:49:38,365 - listener - DEBUG - new lastbuzzread_at is: 2010-03-04 09:08:55
+2010-03-04 11:49:38,366 - listener - DEBUG - listener: msg received: publish__497
+2010-03-04 11:49:38,366 - listener - DEBUG - listener.post_buzz2twitter: msg received: 497
+2010-03-04 11:49:38,372 - listener - INFO - (u'Publishing on Twitter: http://bit.ly/b2kft7',)
+2010-03-04 11:50:46,869 - listener - DEBUG - listener: msg received: notification__146
+2010-03-04 11:50:46,869 - listener - DEBUG - listener.processnotification: msg received: 146
+2010-03-04 11:50:46,879 - listener - DEBUG - XXX date_buzz: 2010-02-28 22:37:05 lastbuffread_at: 2010-03-04 09:08:55
+2010-03-04 11:50:46,879 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 12:11:19,409 - listener - DEBUG - listener: msg received: notification__147
+2010-03-04 12:11:19,409 - listener - DEBUG - listener.processnotification: msg received: 147
+2010-03-04 12:11:19,429 - listener - DEBUG - XXX date_buzz: 2010-03-01 00:02:07 lastbuffread_at: 2010-03-04 09:08:55
+2010-03-04 12:11:19,429 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 12:37:06,190 - listener - DEBUG - listener: msg received: notification__148
+2010-03-04 12:37:06,190 - listener - DEBUG - listener.processnotification: msg received: 148
+2010-03-04 12:37:06,215 - listener - DEBUG - XXX date_buzz: 2010-03-04 12:01:18 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 12:37:06,215 - listener - DEBUG - XXX date_buzz: 2010-03-02 11:18:42 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 12:37:06,647 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:00:33,017 - listener - DEBUG - listener: msg received: notification__149
+2010-03-04 13:00:33,018 - listener - DEBUG - listener.processnotification: msg received: 149
+2010-03-04 13:00:33,049 - listener - DEBUG - XXX date_buzz: 2010-03-04 10:41:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:33,110 - listener - DEBUG - listener: msg received: notification__150
+2010-03-04 13:00:33,110 - listener - DEBUG - listener.processnotification: msg received: 150
+2010-03-04 13:00:33,144 - listener - DEBUG - XXX date_buzz: 2010-03-04 10:41:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:35,228 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:47:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:35,229 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:26:23 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:35,303 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:47:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:35,304 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:26:23 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:36,384 - listener - DEBUG - XXX date_buzz: 2010-03-04 09:01:55 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:36,866 - listener - DEBUG - XXX date_buzz: 2010-03-04 09:01:55 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:37,922 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:00:38,179 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:00:44,139 - listener - DEBUG - listener: msg received: notification__151
+2010-03-04 13:00:44,139 - listener - DEBUG - listener.processnotification: msg received: 151
+2010-03-04 13:00:44,172 - listener - DEBUG - XXX date_buzz: 2010-03-04 10:41:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:44,519 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:47:32 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:44,520 - listener - DEBUG - XXX date_buzz: 2010-03-04 11:26:23 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:44,858 - listener - DEBUG - XXX date_buzz: 2010-03-04 09:01:55 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:00:45,195 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:20:02,335 - listener - DEBUG - listener: msg received: notification__152
+2010-03-04 13:20:02,335 - listener - DEBUG - listener.processnotification: msg received: 152
+2010-03-04 13:20:02,348 - listener - DEBUG - XXX date_buzz: 2010-02-28 21:56:48 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 13:20:02,349 - listener - DEBUG - XXX date_buzz: 2010-02-28 16:10:52 lastbuffread_at: 2010-02-24 21:59:21
+2010-03-04 13:20:02,679 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:26:12,283 - listener - DEBUG - listener: msg received: notification__153
+2010-03-04 13:26:12,283 - listener - DEBUG - listener.processnotification: msg received: 153
+2010-03-04 13:26:12,321 - listener - DEBUG - XXX date_buzz: 2010-02-28 21:35:24 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:12,652 - listener - DEBUG - XXX date_buzz: 2010-02-28 20:15:46 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:12,655 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:58:00 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:12,656 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:57:14 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:12,658 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:26:40,803 - listener - DEBUG - listener: msg received: notification__154
+2010-03-04 13:26:40,804 - listener - DEBUG - listener.processnotification: msg received: 154
+2010-03-04 13:26:40,844 - listener - DEBUG - XXX date_buzz: 2010-02-28 21:35:24 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:41,167 - listener - DEBUG - XXX date_buzz: 2010-02-28 20:15:46 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:41,169 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:58:00 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:41,171 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:57:14 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:26:41,172 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:46:53,828 - listener - DEBUG - listener: msg received: notification__155
+2010-03-04 13:46:53,828 - listener - DEBUG - listener.processnotification: msg received: 155
+2010-03-04 13:46:53,858 - listener - DEBUG - XXX date_buzz: 2010-02-28 21:35:24 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:46:54,176 - listener - DEBUG - XXX date_buzz: 2010-02-28 20:15:46 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:46:54,177 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:58:00 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:46:54,178 - listener - DEBUG - XXX date_buzz: 2010-02-28 19:57:14 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:46:54,179 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 13:51:26,414 - listener - DEBUG - listener: msg received: notification__156
+2010-03-04 13:51:26,414 - listener - DEBUG - listener.processnotification: msg received: 156
+2010-03-04 13:51:26,453 - listener - DEBUG - XXX date_buzz: 2010-03-01 08:38:39 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:51:26,782 - listener - DEBUG - XXX date_buzz: 2010-03-01 07:44:05 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:51:26,783 - listener - DEBUG - XXX date_buzz: 2010-03-01 09:51:50 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:51:27,113 - listener - DEBUG - XXX date_buzz: 2010-03-01 10:37:40 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 13:51:27,733 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 14:20:43,512 - listener - DEBUG - listener: msg received: notification__157
+2010-03-04 14:20:43,512 - listener - DEBUG - listener.processnotification: msg received: 157
+2010-03-04 14:20:43,532 - listener - DEBUG - XXX date_buzz: 2010-03-01 12:05:04 lastbuffread_at: 2010-02-25 10:02:31
+2010-03-04 14:20:45,348 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 14:23:00,940 - listener - DEBUG - listener: msg received: notification__158
+2010-03-04 14:23:00,941 - listener - DEBUG - listener.processnotification: msg received: 158
+2010-03-04 14:23:00,968 - listener - DEBUG - XXX date_buzz: 2010-03-03 15:29:33 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-04 14:23:00,969 - listener - INFO - Saving new buzz: ¿Algún manos libres CON instalación para el coche con el que TE ESCUCHEN bien? (los Parrot con los que hablo suenan todos como el culo.) #t
+2010-03-04 14:23:00,970 - listener - INFO - sending message to queue publish__498
+2010-03-04 14:23:00,970 - listener - DEBUG - XXX date_buzz: 2010-03-03 09:15:25 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-04 14:23:00,970 - listener - DEBUG - XXX date_buzz: 2010-03-04 13:17:16 lastbuffread_at: 2010-03-03 09:19:48
+2010-03-04 14:23:00,970 - listener - DEBUG - listener: msg received: publish__498
+2010-03-04 14:23:00,970 - listener - DEBUG - listener.post_buzz2twitter: msg received: 498
+2010-03-04 14:23:00,971 - listener - DEBUG - new lastbuzzread_at is: 2010-03-03 15:29:33
+2010-03-04 14:23:00,974 - listener - INFO - (u'Publishing on Twitter: \xbfAlg\xfan manos libres CON instalaci\xf3n para el coche con el que TE ESCUCHEN bien? (los Parrot con los que hablo suenan todos como el culo.) ',)
+2010-03-04 14:43:52,514 - listener - DEBUG - Listening starting
+2010-03-04 14:43:52,514 - listener - DEBUG - Listening starting
+2010-03-04 14:43:52,518 - listener - INFO - Starting listener server
+2010-03-04 14:43:52,518 - listener - INFO - Starting listener server
+2010-03-04 15:14:08,855 - listener - DEBUG - listener: msg received: subscribefeed__92
+2010-03-04 15:14:08,855 - listener - DEBUG - listener.subscribefeed: msg received: 92
+2010-03-04 15:14:09,108 - listener - DEBUG - Subscribing user: juanjuxtest@gmail.com
+2010-03-04 15:14:09,108 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/117128917302494323129/public/posted
+2010-03-04 15:14:09,108 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/92/
+2010-03-04 15:15:21,408 - listener - DEBUG - Listening starting
+2010-03-04 15:15:21,412 - listener - INFO - Starting listener server
+2010-03-04 15:20:01,989 - listener - DEBUG - Listening starting
+2010-03-04 15:20:01,992 - listener - INFO - Starting listener server
+2010-03-04 15:28:38,348 - listener - DEBUG - Listening starting
+2010-03-04 15:28:38,351 - listener - INFO - Starting listener server
+2010-03-04 15:33:39,460 - listener - DEBUG - listener: msg received: subscribefeed__93
+2010-03-04 15:33:39,460 - listener - DEBUG - listener.subscribefeed: msg received: 93
+2010-03-04 15:33:39,680 - listener - DEBUG - Subscribing user: juanjuxtest@gmail.com
+2010-03-04 15:33:39,680 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/117128917302494323129/public/posted
+2010-03-04 15:33:39,681 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/93/
+2010-03-04 15:35:04,047 - listener - DEBUG - listener: msg received: notification__159
+2010-03-04 15:35:04,047 - listener - DEBUG - listener.processnotification: msg received: 159
+2010-03-04 15:35:04,066 - listener - DEBUG - XXX date_buzz: 2010-03-04 15:34:41 lastbuffread_at: 2010-03-04 15:31:39
+2010-03-04 15:35:04,068 - listener - INFO - Saving new buzz: test1634
+2010-03-04 15:35:04,068 - listener - INFO - sending message to queue publish__499
+2010-03-04 15:35:04,069 - listener - DEBUG - new lastbuzzread_at is: 2010-03-04 15:34:41
+2010-03-04 15:35:04,069 - listener - DEBUG - listener: msg received: publish__499
+2010-03-04 15:35:04,069 - listener - DEBUG - listener.post_buzz2twitter: msg received: 499
+2010-03-04 15:35:04,097 - listener - INFO - (u'Publishing on Twitter: test1634',)
+2010-03-04 15:37:53,265 - listener - DEBUG - Listening starting
+2010-03-04 15:38:08,613 - listener - DEBUG - Listening starting
+2010-03-04 15:39:00,929 - listener - DEBUG - Listening starting
+2010-03-04 15:39:55,602 - listener - DEBUG - Listening starting
+2010-03-04 15:40:01,809 - listener - DEBUG - Listening starting
+2010-03-04 15:40:27,207 - listener - DEBUG - Listening starting
+2010-03-04 15:41:22,732 - listener - DEBUG - Listening starting
+2010-03-04 15:42:21,293 - listener - DEBUG - Listening starting
+2010-03-04 15:42:21,296 - listener - INFO - Starting listener server
+2010-03-04 15:42:24,379 - listener - INFO - Starting listener server
+2010-03-04 15:48:47,577 - listener - DEBUG - Listening starting
+2010-03-04 15:48:47,580 - listener - INFO - Starting listener server
+2010-03-04 16:00:18,398 - listener - DEBUG - listener: msg received: subscribefeed__94
+2010-03-04 16:00:18,398 - listener - DEBUG - listener.subscribefeed: msg received: 94
+2010-03-04 16:00:18,601 - listener - DEBUG - Subscribing user: juanjuxtest@gmail.com
+2010-03-04 16:00:18,601 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/117128917302494323129/public/posted
+2010-03-04 16:00:18,602 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/94/
+2010-03-04 16:00:58,267 - listener - DEBUG - listener: msg received: notification__160
+2010-03-04 16:00:58,267 - listener - DEBUG - listener.processnotification: msg received: 160
+2010-03-04 16:00:58,316 - listener - DEBUG - XXX date_buzz: 2010-03-04 15:37:45 lastbuffread_at: 2010-03-04 15:58:18
+2010-03-04 16:00:58,317 - listener - DEBUG - XXX date_buzz: 2010-03-04 16:00:41 lastbuffread_at: 2010-03-04 15:58:18
+2010-03-04 16:00:58,317 - listener - INFO - Saving new buzz: sdfsdf
+2010-03-04 16:00:58,318 - listener - INFO - sending message to queue publish__500
+2010-03-04 16:00:58,318 - listener - DEBUG - new lastbuzzread_at is: 2010-03-04 16:00:41
+2010-03-04 16:00:58,319 - listener - DEBUG - listener: msg received: publish__500
+2010-03-04 16:00:58,319 - listener - DEBUG - listener.post_buzz2twitter: msg received: 500
+2010-03-04 16:00:58,322 - listener - INFO - (u'Publishing on Twitter: sdfsdf',)
+2010-03-04 16:02:57,723 - listener - DEBUG - Listening starting
+2010-03-04 16:03:02,813 - listener - DEBUG - Listening starting
+2010-03-04 16:03:27,507 - listener - DEBUG - Listening starting
+2010-03-04 16:03:36,460 - listener - DEBUG - Listening starting
+2010-03-04 16:03:36,463 - listener - INFO - Starting listener server
+2010-03-04 16:03:47,607 - listener - DEBUG - Listening starting
+2010-03-04 16:03:47,610 - listener - INFO - Starting listener server
+2010-03-04 16:05:27,350 - listener - DEBUG - listener: msg received: notification__161
+2010-03-04 16:05:27,351 - listener - DEBUG - listener.processnotification: msg received: 161
+2010-03-04 16:05:27,403 - listener - DEBUG - XXX date_buzz: 2010-03-04 16:04:40 lastbuffread_at: 2010-03-04 16:00:41
+2010-03-04 16:05:27,403 - listener - INFO - Saving new buzz: test1704
+2010-03-04 16:05:27,404 - listener - INFO - sending message to queue publish__501
+2010-03-04 16:05:27,404 - listener - DEBUG - XXX date_buzz: 2010-03-04 16:04:13 lastbuffread_at: 2010-03-04 16:00:41
+2010-03-04 16:05:27,405 - listener - INFO - Saving new buzz: 87766
+2010-03-04 16:05:27,406 - listener - INFO - sending message to queue publish__502
+2010-03-04 16:05:27,406 - listener - DEBUG - new lastbuzzread_at is: 2010-03-04 16:04:40
+2010-03-04 16:05:27,408 - listener - DEBUG - listener: msg received: publish__501
+2010-03-04 16:05:27,408 - listener - DEBUG - listener.post_buzz2twitter: msg received: 501
+2010-03-04 16:05:27,411 - listener - INFO - (u'Publishing on Twitter: test1704',)
+2010-03-04 16:05:28,042 - listener - DEBUG - listener: msg received: publish__502
+2010-03-04 16:05:28,043 - listener - DEBUG - listener.post_buzz2twitter: msg received: 502
+2010-03-04 16:05:28,048 - listener - INFO - (u'Publishing on Twitter: 87766',)
+2010-03-04 16:09:22,402 - listener - DEBUG - listener: msg received: notification__162
+2010-03-04 16:09:22,403 - listener - DEBUG - listener.processnotification: msg received: 162
+2010-03-04 16:09:22,412 - listener - DEBUG - XXX date_buzz: 2010-03-04 16:07:18 lastbuffread_at: 2010-03-04 16:04:40
+2010-03-04 16:09:22,412 - listener - INFO - parsing command for: buzz2tweet: cancel
+2010-03-04 16:09:22,426 - listener - DEBUG - new lastbuzzread_at is: None
+2010-03-04 16:09:22,428 - listener - DEBUG - listener: msg received: unsubscribefeed__57__94
+2010-03-04 16:09:22,428 - listener - DEBUG - listener.unsubscribefeed: msg received: 57__94
+2010-03-04 16:13:30,057 - listener - DEBUG - listener: msg received: subscribefeed__95
+2010-03-04 16:13:30,057 - listener - DEBUG - listener.subscribefeed: msg received: 95
+2010-03-04 16:13:30,150 - listener - DEBUG - Subscribing user: juanjuxtest@gmail.com
+2010-03-04 16:13:30,150 - listener - DEBUG - To topic URL: http://buzz.googleapis.com/feeds/117128917302494323129/public/posted
+2010-03-04 16:13:30,151 - listener - DEBUG - Using callback: http://buzz2tweet.com/pubsubcallback/95/

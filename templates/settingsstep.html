@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Step 3/3: Configure the settings</h2>
+
+<p>
+Now you can fine tune the service settings and learn how to control it using commands issued from Buzz.
+<p>
+Since there is no traditional
+registration on this service, please save this URL to access your settings later (but you will also be able to control the
+service using commands issued from Buzz as you will see later):
+<p>
+<span class="longlink">
+http://buzz2tweet.com/settingsstep/{{userhash}}/
+</span>
+    
+
+<p>
+
+<SCRIPT LANGUAGE="JavaScript">
+function markenable() {
+
+    if(document.settingsform.usetag.checked)
+    {
+        document.settingsform.mark.disabled=false;
+    }
+
+    else
+    {
+        document.settingsform.mark.disabled=true;
+    }
+}
+
+function textlink() {
+
+    if(document.settingsform.longmsg[2].checked == true)
+    {
+        document.settingsform.longlinktext.disabled = false;
+    }
+
+    else
+    {
+        document.settingsform.longlinktext.disabled = true;
+    }
+}
+</SCRIPT>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<form action="/settingsstep/" name="settingsform" method="post" id="settingsform">
+    <ul>
+    <li><strong>When a message is longer than 140 letters...</strong></li>
+    <li>
+        <input type="radio" name="longmsg" id="longtruncate" value="0" onclick="textlink();" />
+        <label for="longtruncate">Truncate it to 140 letters (all text after will be lost!)</label></br>
+    </li>
+    
+    <li>
+        <input type="radio" name="longmsg" id="longsplit" value="1" onclick="textlink();" checked="yes" />
+        <label for="longsplit">Split it on several tweets</label></br>
+    </li>
+ 
+    <li>   
+        <input type="radio" name="longmsg" id="longlink" value="2" onclick="textlink();" />
+        <label for="longlink">Publish a link to the buzz</label></br>
+    </li>
+    
+    <li>
+        <label for="longlinktext">
+            Text that will go before the link on the tweet (no longer than 119 letters!): <br/>
+        </label></br>
+        <input type="text" maxlength="119" size="70" disabled name="longlinktext" id="longlinktext" value="I published a Buzz too long for Twitter, read it here: " />
+    </li>
+    </ul>
+    
+    <ul>
+    <li>
+        <input type="checkbox" name="usetag" id="usetag" value="usetag" onclick="markenable();"/>
+        <label for="usetag">
+            <strong>Publish only buzzs containing a special tag?</strong>
+        </label><br/>
+    </li>
+    
+    <li>
+        <label for="mark">
+            Tag to mark buzzs to be published on Twitter:
+        </label><br/>
+        <input type="text" disabled name="mark" id="mark" value="#b2t" />
+    </li>
+    </ul>
+    
+    <input type="submit" value="Finish!" />
+</form>
+    
+
+{% endblock %}

@@ -1,0 +1,17 @@
+2010-03-04 17:03:25,845 [MainThread] coilmq.start - ERROR - Stomp server stopped due to error: [Errno 98] Address already in use
+2010-03-04 17:03:25,846 [MainThread] coilmq.start - ERROR - [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/start.py", line 115, in context_serve
+    server = server_from_config()
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/start.py", line 82, in server_from_config
+    authenticator=authenticator)
+  File "/usr/local/lib/python2.6/dist-packages/CoilMQ-0.3-py2.6.egg/coilmq/server/socketserver.py", line 123, in __init__
+    TCPServer.__init__(self, server_address, RequestHandlerClass)
+  File "/usr/lib/python2.6/SocketServer.py", line 400, in __init__
+    self.server_bind()
+  File "/usr/lib/python2.6/SocketServer.py", line 411, in server_bind
+    self.socket.bind(self.server_address)
+  File "<string>", line 1, in bind
+error: [Errno 98] Address already in use
+2010-03-04 17:03:33,524 [MainThread] coilmq.start - INFO - Created server:<coilmq.server.socketserver.ThreadedStompServer instance at 0xb27cb0>
+2010-03-04 17:03:33,526 [MainThread] coilmq.start - INFO - Stomp server listening on 127.0.0.1:61613

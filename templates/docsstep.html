@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Finished!</h2>
+
+<p>
+You are done! Now read a little warning and then go to read about how to control the service:
+<p class="postmeta">
+<strong>It is very important to NOT connect Twitter with Buzz on Buzz configuration, because you could enter on a loop where
+buzz2tweet publishes your buzz on Twitter, then Google publishes your tweet on Buzz and we republish it... again... forever bringuing
+down Twitter, then Google and then the entire Internet and even the world (not really). So just
+disconnect it; I'll enable the publishing of tweets on Buzz as soon as Google enables the write API</strong>
+<br/><br/>
+To disconnect Twitter from 
+Buzz, you can use the link "X connected sites" just before the status update box on Buzz.
+</p>
+ 
+<h3>How to control the buzz 2 tweet service</h3>
+    
+<p>
+Just write a Buzz starting with "buzz2tweet:" followed by the command and the service will change your
+settings and reply to you with the results using a private message on twitter.
+<p>
+    
+The commands available are:
+
+<dl>
+<dt>buzz2tweet: cancel</dt>
+<dd>Cancel the buzz2tweet service for you account. Your Google username and Twitter authorization will be deleted,
+    leaving no trace in our databases. If you want to use again the service you'll have to go to complete the wizard.</dd>
+
+<br/>
+<dt>buzz2tweet: pause</dt>
+<dd>Pause the service. It will not publish your buzzs on twitter until you resume.</dd>
+
+<br/>
+<dt>buzz2tweet: resume</dt>
+<dd>Resume the service if it has been paused before</dd>
+
+<br/>
+<dt>buzz2tweet: excess-truncate</dt>
+<dd>Truncate buzzs longer than 140 characters; all the text after 140 chars will be lost</dd>
+
+<br/>
+<dt>buzz2tweet: excess-link [text before the link]</dt>
+<dd>When a buzz is longer than 140 characters, provide a link to the full Buzz, and precede the link with the text specified (for example: "buzz2tweet.com: excelss-link 
+I published a long buzz here". The text to precede the link can be longer that 110 characters (to leave space for the link.)</dd>
+
+<br/>
+<dt>buzz2tweet: excess-split</dt>
+<dd>When a buzz is longer than 140 characters, split it on several numbered tweets.</dd>
+
+<br/>
+<dt>buzz2tweet: use-tag tag</dt>
+<dd>If you activate this options, only the buzzs with a special tag will be tweeted. For example: "buzz2tweet.com: use-tag #b2t"
+will make any buzz with the 
+text "#b2t" to be published on twitter, but not others. The tag will be removed so it will
+not add to you character count.</dd>
+
+<br/>
+<dt>butt2tweet: dont-use-tag</dt>
+<dd>Disable the previous option, thus publishing all buzzs on Twitter.</dd>
+
+</dl>
+
+{% endblock %}

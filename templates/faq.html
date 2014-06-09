@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>Who is after buzz2tweet.com?</h3>
+<p>
+    Juanjo Alvarez, just a random programmer with the goal of playing a little with ActiveMQ and the STUMP protocol.
+    
+<h3>What personal data do you store? Do you sell the data or something?</h3>
+<p>
+    The system only stores the (public) Google Profile URL and the Twitter (public) username. You (public) Buzzs contents will
+    only be stored until they're published on Twitter. I wont give the data to any third party.
+
+<h3>Can the service publish my tweets on Buzz?</h3>
+<p>
+    Not yet because the Buzz API currently doesn't support publishing on Buzz. I'll update the service as soon as it does.
+    
+<h3>How much time until my buzzs appear on Twitter?</h3>
+<p>
+    The Google Buzz's Atom feed usually updates withing 1-3 minutes after the publication of the Buzz, then we've to read and
+    publish, but that's usually pretty fast (seconds.)
+    
+<h3>Why are some of my Buzzs not showing on Twitter?</h3>
+<p>
+    It could be one of several things:
+    <ol>
+        <li>Private buzzs: buzz2tweet doesn't publish private buzzs, only the public ones.
+        <li>Twitter is down: even if you can log into Twitter sometimes the apps using the API doesn't.
+        <li>buzz2tweet overload: since the service is new I don't know yet how it will handle the load if a lot of people
+            starts using it. In theory it can scale pretty well... in theory.
+    </ol>
+
+
+
+{% endblock %}

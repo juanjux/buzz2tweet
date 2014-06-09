@@ -1,0 +1,3 @@
+#!/bin/sh
+bzr commit -m "push"
+bzr push bzr+ssh://juanjux@juanjoalvarez.net/home/juanjux/webapps/django/buzz2tweet
